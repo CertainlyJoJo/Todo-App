@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Sour Gummy", serif;
+
+    @apply bg-gray-200 w-6/12 place-self-center mt-5 border border-black rounded-2xl ;
+
+    box-shadow: 0px 5px 10px 5px rgba(3, 3, 3, 0.445);
+}
+
+.card{
+    @apply bg-white rounded px-3 py-3 my-2 text-left border-l-4 border-l-black;
+}
