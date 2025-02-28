@@ -25,7 +25,6 @@
                             @method('DELETE')
                             <button type="submit" class="h-fit"><img class="border border-black bg-white rounded w-10" src="\Icons\delete.svg" alt=""></button>
                         </form>
-
                     </li>
                 @endforeach
 
